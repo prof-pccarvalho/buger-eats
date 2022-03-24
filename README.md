@@ -4,6 +4,10 @@
 
 **** Neste projeto fizemos a automação do site https://buger-eats.vercel.app/ ****
 
+✅ Git oficial da qaninja
+https://github.com/weareqaninja/buger-eats-cypress-discovery
+
+
 ### Ementa:
 @ Introdução
 1. Seja Bem-vindo(a) ao Cypress Discovery
