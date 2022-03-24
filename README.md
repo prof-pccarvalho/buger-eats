@@ -63,4 +63,23 @@ https://github.com/weareqaninja/buger-eats-cypress-discovery
 
 @ Encerramento
 
+## O que é o GitHub Actions?
+E aí, você já ouviu falar do GitHub Actions?? Não?! Então está na hora de entender o que é essa feature do GitHub.
+A maioria das pessoas utiliza o GitHub apenas como um repositório de código-fonte e quando precisava fazer algum processo de build ou deploy acabava integrando com outras plataformas, como por exemplo o Azure DevOps Services, Jenkins etc.
+Agora isso já não é mais necessário, podemos fazer tudo isso dentro do próprio GitHub utilizando a feature de “Actions”, facilitando muito o processo de automatização de builds e deploys dos nossos sistemas, pois tudo estará no mesmo repositório.
+O GitHub Actions nada mais é do que um orquestrador de workflow. Através dele nós podemos construir um workflow com várias ações que vão descrever os passos necessários para compilar, testar, empacotar, criar releases e até fazer deploy do nosso sistema. O GitHub Actions nos permite implementar as técnicas de CI e CD de forma simples dentro do nosso repositório, não precisando mais fazer integrações com outros sistemas.
+Outra grande vantagem dessa funcionalidade é a possibilidade de utilizar agentes próprios do GitHub, não havendo necessidade de criação de ambientes específicos para conseguirmos executar nossos workflows de CI e CD. Isso agiliza ainda mais o processo de configuração e execução dos nossos workflows e diminui o custo de implantação, pois já temos uma infraestrutura pronta para utilizarmos.
+## Quais são os componentes do GitHub Actions?
+Workflow: É onde vamos descrever todo o processo de automação para podermos compilar, testar e fazer deploy do nosso sistema.
+Actions: São tarefas que vamos utilizar dentro do workflow. Aqui que vamos definir o que realmente nosso workflow vai fazer.
+Runners: É a máquina responsável por executar o workflow e as actions e nos prover o feedback do nosso processo. O Runner pode ser o GitHub-hosted, provido pelo próprio time ou self-hosted runner, onde você é responsável por gerenciar o servidor e os serviços instalados nele.
+## E o custo?
+Para repositórios públicos é de graça e para repositórios privados, cada conta recebe alguns minutos de graça, conforme tabela abaixo:
+GitHub Free 500 MB com 2.000 minutos por mês
+GitHub Pro 1GB com 3.000 minutos por mês
+GitHub Free for organizations 500 MB com 2.000 minutos por mês
+GitHub Team 2 GB com 3.000 minutos por mês
+GitHub Enterprise Cloud 50GB com 5.000 minutos por mês
+Acima disso, você terá que configurar o billing para poder utilizar mais espaço e mais tempo de execução de build ou deploy.
+
 
